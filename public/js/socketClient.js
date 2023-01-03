@@ -5,7 +5,7 @@ function SocketClient(){
     let name = $("#name")
     let joinGame = $('#joinGame')
     let hostName = $('#hostName')
-    let room;
+    let room
     let board
 
     nameForm.submit( () => {
