@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/black.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/socketClient.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/board.js"></script>
+    <script src="./js/checkers.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/draughtsboard.js"></script>
+    <link rel="stylesheet" href="css/draughtsboard.css">
+    <script src="js/draughts.js"></script>
+    <script>$(document).ready(init)</script>
+    <title>CheckersForEveryOne</title>
+</head>
+<body>
+<div class="col-sm-2">
+    <div class="container-fluid">
+        <h2>Checkers made by Goodkid n Sone4ka</h2>
+        <div class="row" style="margin-top:20px; margin-bottom:20px;">
+            <form id="nameForm" method="">
+                <label>Enter Your Name</label>
+                <input class="chat-box" id="nameInput" type="text"><span>
+          <button class="btn btn-primary" type="submit">Enter Name</button>
+        </span>
+            </form>
+        </div>
+
+
+
+        <div class="row">
+            <form id="joinGame" method="">
+                <label>Enter Host Name</label>
+                <input class="chat-box" id="hostName" type="text">
+                <span>
+          <button class="btn btn-primary" type="submit">Join Host</button>
+        </span>
+            </form>
+        </div>
+        <div class="row">
+            <h3 id="name" style="margin-bottom:20px;width:100%;">Ваше имя после ввода =)</h3>
+        </div>
+    </div>
+    <div id="board" style="width: 500px"></div>
+</div>
+</body>
+</html>

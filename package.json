@@ -1,0 +1,17 @@
+{
+  "name": "checkers Front && Back",
+  "version": "1.0.0",
+  "description": "Simple version",
+  "main": "index.js",
+  "scripts": {
+    "startGame": "node server.js"
+  },
+  "keywords": [],
+  "author": "GoodKid n Sone4ka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  }
+}
